@@ -1,0 +1,57 @@
+.pfp {
+  width: 100px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.pfp-div, .stats, .pstats , .name{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: roboto, comic sans ms, arial;
+}
+
+.name {
+  font-weight: 700;  
+}
+
+.pstats {
+    color: rgb(165, 165, 165);
+}
+
+.info , .follow{
+    display: inline-block;
+}
+
+.follow {
+    width: 100px;
+    height: 130px;
+    vertical-align: middle;
+}
+
+.follow-button {
+    margin-top: 55%;
+    background-color: rgb(65, 133, 212);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-weight: 780;
+}
+
+.follow-button:hover {
+    background-color: rgb(80, 148, 227);
+}
+
+.follow-button:active {
+    background-color: rgb(90, 158, 237);
+}
+
+.info {
+    height: 130px;
+    width: 23%;
+}
